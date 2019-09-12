@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sports Info</title>
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="my-css/style.css">
+
+</head>
+<body>
+     
+    <!----this is the background img with a slider-->
+
+<div class="main-header-container">
+    <div class="header_container">
+
+        <div class="header-logo">
+            <div class="logo">
+                <img src="images/new_img/logo.png" alt="logo">
+            </div>
+            <div class="logo-links">
+               <a href="#" class="rounded-link"><i class="fa fa-facebook-square "></i></a>
+               <a href="#" class="rounded-link"><i class="fa fa-twitter icon"></i> </a>
+               <a href="#" class="rounded-link"><i class="fa fa-youtube icon"></i></a>
+               <a href="#" class="rounded-link"><i class="fa fa-pinterest-p icon"></i> </a>
+
+
+               <a href="login.html" class="rounded-flat_link transition"><i class="fa fa-user"></i> login</a>
+               <a href="register.html" class="rounded-flat_link transition"><i class="fa fa-shopping-cart"></i> register</a>
+            </div>
+        </div>
+       
+ <div class="header-navbar">
+           <div class="nav container">
+               <span class="burger-name">MENU</span>
+
+               <div>
+                <div class="burger-icon " onclick="dropDown()">&#9776;</div>
+   
+                <div class="burger-icon-close" onclick="closeNav()"> &times;</div>
+               </div>
+
+            </div>
+            <div class="navbar" id="nav-down">
+                    <ul>
+                            <li><a id="active" href="#">Home</a></li>
+                            <li ><a href="about.html" >About</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                    </ul>      
+            </div>
+           
+           
+           <div class="input-wrapper">
+                <span>
+                       <input type="text" placeholder="Search" class="input-search">
+                </span>
+              <span>
+                   <i class="fa fa-search search"></i>
+              </span>
+            </div>
+
+        </div>
+
+        <div class="header-content">
+            <h1>If You Don`t Practice
+                 You <span class="color-yellow">Don`t Deserve</span>
+                  To Win</h1>
+            <p>If you use this site regularly and would like to help keep the site on the Internet,<br>
+                    please consider donating a small sum to help pay..</p>
+
+            <button class="transition hover" id="read-more-link"><a href="team.html" class="take-to">READ MORE<a></button>
+        </div>
+
+    </div><!----end of header_container----->
+</div><!----end of main-header-container ----->
+
+
+<!------------higthlight animation------>
+<div class="hightlight-container">
+    <div class="hightlight-text container">
+            <p class="container" id="demo"><i class="fa fa-star" aria-hidden="true" style="color:#ffb300; padding-right:5px"></i></p>
+    </div>
+</div>
+
+
+<!------------section for today`s matches------>
+<aside class="match-container">
+    <div class="match-img ">
+        <div class="match_img_wrapper">
+                <div class="article-img">
+                    <img src="images/img-03.png" alt="today`s match">
+                    <p id="club-tag"> Footbal Team</p>
+                </div>
+                <div class="vs">
+                    <span>vs</span>
+                </div>
+                <div class="article-img">
+                    <img src="images/img-04.png "alt="today`s match"> 
+                    <p id="club-tag">Super Team Club</p>       
+                </div>
+        </div>
+        
+    </div>
+
+    <div class="match-advert-container">
+       <div class="match-advert-text text-center">
+           <h1>Next Match</h1>
+           <h2>10 Day 5 Hours 25 Minutes 10 Seconds</h2>
+           <h4>12/02/2017 /19:00pm</h4>
+       </div>
+    </div>
+</aside>
+
+
+<!-------------------MAIN-CONTENTS---------->
+
+<section class="main_section_wrapper container">
+
+    <div class="col-lg-4">
+
+       <div class="content-one">
+           <img src="images/_107354137_messi_getty_croatia.jpg" alt="">
+           <div class="content-one-text">
+               <a href="pages/page-2.html" id="ext-link" ><p>Lionel Messi: Why does Argentina's captain struggle internationally?...</p></a>
+           </div>
+       </div>
+
+       <div class="content-two">
+           <h2 class="t-header">Match Fixture</h2>
+           <table style="width:100%" class="border content-two-table">
+                <tr>
+                  <td>
+                      <img src="images/img-01_002.png" id="t-img" alt="">
+                      <h3 id="t-h3">Portugal</h3>
+                  </td>
+                  <td>vs</thd> 
+                    <td>
+                        <img src="images/img-05_002.png" id="t-img" alt="">
+                        <h3 id="t-h3">Germany</h3>
+                    </td>
+                </tr>
+                <tr>
+                        <td>
+                            <img src="images/img-08.png" id="t-img" alt="">
+                            <h3 id="t-h3">Portugal</h3>
+                        </td>
+                  <td>vs</td> 
+                        <td>
+                            <img src="images/img-06.png" id="t-img" alt="">
+                            <h3 id="t-h3">Portugal</h3>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                                <img src="images/img-01_002.png" id="t-img" alt="">
+                                <h3 id="t-h3">Portugal</h3>
+                        </td>
+                  <td>vs</td> 
+                  <td>
+                        <img src="images/img-08.png" id="t-img" alt="">                      <h3 id="t-h3">Portugal</h3>
+                  </td>
+                </tr>
+
+                <tr>
+                        <td>
+                                <img src="images/img-05_002.png" id="t-img" alt="">
+                                <h3 id="t-h3">Portugal</h3>
+                        </td>
+                  <td>vs</td> 
+                  <td>
+                        <img src="images/img-02.png" id="t-img" alt="">
+                        <h3 id="t-h3">Portugal</h3>
+                  </td>
+                </tr>
+
+                <tr>
+                        <td>
+                                <img src="images/img-05_002.png" id="t-img" alt="">
+                                <h3 id="t-h3">Portugal</h3>
+                        </td>
+                  <td>vs</td> 
+                  <td>
+                        <img src="images/img-08.png" id="t-img" alt="">
+                        <h3 id="t-h3">Portugal</h3>
+                  </td>
+                </tr>
+              </table>
+              
+       </div>
+
+
+       
+<div class="content-widget top-story" style="background: url(images/top-story-bg.jpg);">
+
+    <div class="top-stroy-header">
+       <h2>Top Soccer Headlines Story <a href="#" class="fa fa-fa fa-angle-right"></a></h2>
+
+       <span class="date">July 05, 2017</span>
+       <h2>Other Headlines</h2>
+    </div>
+    <ul class="other-stroies">
+       <li><a href="#">Wenger Vardy won't start</a></li>
+       <li><a href="#">Evans: Vardy just</a></li>
+       <li><a href="#">Pires and Murray </a></li>
+       <li><a href="#">Okazaki backing</a></li>
+       <li><a href="#">Wolfsburg's Rodriguez</a></li>
+       <li><a href="#">Jamie Vardy compared</a></li>
+       <li><a href="#">Arsenal target Mkhitaryan</a></li>
+       <li><a href="#">Messi wins libel case.</a></li>
+    </ul>
+ </div>
+
+
+
+       <!-------second table------------>
+
+       <div class="content-two_second-table">
+            <h2 class="t-header">Points Table</h2>
+            
+       </div>
+
+       <div class="feature-matchs">
+            <table class="table table-bordered border" border="1">
+               <thead>
+                  <tr>
+                     <th>#</th>
+                     <th>Team</th>
+                     <th>P</th>
+                     <th>W</th>
+                     <th>L</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>1</td>
+                     <td><img src="images/img-01_004.png" alt="">Liverpool</td>
+                     <td>10</td>
+                     <td>12</td>
+                     <td>20</td>
+                  </tr>
+                  <tr>
+                     <td>2</td>
+                     <td><img src="images/img-02_002.png" alt="">Chelsea</td>
+                     <td>10</td>
+                     <td>12</td>
+                     <td>20</td>
+                  </tr>
+                  <tr>
+                     <td>3</td>
+                     <td><img src="images/img-03_003.png" alt="">Norwich City</td>
+                     <td>20</td>
+                     <td>15</td>
+                     <td>20</td>
+                  </tr>
+                  <tr>
+                     <td>4</td>
+                     <td><img src="images/img-04_002.png" alt="">West Brom</td>
+                     <td>60</td>
+                     <td>10</td>
+                     <td>60</td>
+                  </tr>
+                  <tr>
+                     <td>5</td>
+                     <td><img src="images/img-05.png" alt="">sunderland</td>
+                     <td>30</td>
+                     <td>06</td>
+                     <td>30</td>
+                  </tr>
+                  <tr>
+                     <td>1</td>
+                     <td><img src="images/img-01_004.png" alt="">Liverpool</td>
+                     <td>10</td>
+                     <td>12</td>
+                     <td>20</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+
+<!------------------------------------------------>
+
+
+</div>
+    </div><!-----end of col-lg-4------->
+
+
+    <div class="col-lg-8">
+            <div class="section-one border">
+                    <img src="images/_105317000_neymar.jpg" alt="">
+                    <div class="section-one-text">
+                        <span class="date"><i class="fa fa-user"></i> 20 march 2016</span>
+                        <h2 class="transition"><a href="./pages/page-1.html"  id="ext-link" >Neymar became the most expensive footballer in history when he joined PSG for £200m in August 2017...
+
+                        </a></h2>
+                        <p>After months of talk, bluster, posturing, claim and counter-claim we have - for the time being - reached the end of the road. Neymar will be staying at Paris St-Germain.</p>
+                    </div>
+            </div>
+
+            <div class="section-one border">
+                    <img src="images/img2.jpg" alt="">
+                    <div class="section-one-text">
+                            <span class="date"><i class="fa fa-user"></i> 20 march 2016</span>
+                            <h2 class="transition"><a href="./pages/page-3.html"  id="ext-link" >Man Utd: Has strategy changed and is Ole Gunnar Solskjaer the driving force?...</a></h2>.
+
+                        <p>With less than two weeks until the Premier League season starts - and only two friendlies remaining - Solskjaer has yet to make any big-name signings, a significant departure from the approach of his predecessors.</p>
+                    </div>
+            </div>
+
+            <div class="section-one border">
+                    <img src="images/_107285767_shaw_getty.jpg" alt="">
+                    <div class="section-one-text">
+                        <span class="date"><i class="fa fa-user"></i> 20 march 2016</span>
+                        <h2 class="transition"><a href="./pages/page-4.html"  id="ext-link" >Women's World Cup: Khadija Shaw's story of tragedy, tenacity & triumph</a></h2>
+
+                        <p>When Khadija 'Bunny' Shaw graduated with a communications degree from the University of Tennessee in May, it wasn't hard to spot her.</p>
+                    </div>
+            </div>
+    </div><!-----end of col-lg-4------->
+
+</section>
+
+
+<!-------------------------------------------------------->
+
+<section>
+
+        <div class="full">
+                <div class="main-heading sytle-2">
+                   <h2>Video</h2>
+                   <p>Checkout our latest highlight of the week. Our website offers you thrilling football scene hightlights.</p>
+                </div>
+        </div>
+
+        <div class="player-wrapper">
+            <div class="player-img">
+                <video width="400" controls>
+                    <source src="video/_Top_5_Changes!.mp4" type="video/mp4">
+                   
+                </video>
+            </div>
+        </div>
+
+
+        <div class="full">
+                <div class="main-heading ">
+                   <h2>Meet Team</h2>
+                   <p>Checkout the developer team highly recognized all over the world and have high developing and programming skills.</p>
+                </div>
+        </div>
+
+        <!------------------------Team section------------------------>
+     
+        <section>
+            <div class="team-container container">
+
+                <div class="member">
+                    <img src="images/IMG_20190828_123822.jpg" alt="">
+                    <div class="member-info">
+                        <h5>John Ifemezuo</h5>
+                        <span>23</span>
+                    </div>
+                </div>
+                <div class="member">
+                        <img src="images/IMG-20190831-WA0002.jpg" alt="">
+                        <div class="member-info">
+                            <h5>Mmesomma cynthia</h5>
+                            <span>15</span>
+                        </div>
+                </div>
+
+                <div class="member">
+                        <img src="images/vicky.jpg" alt="">
+                        <div class="member-info">
+                            <h5> Ikeh Vicktor</h5>
+                            <span>17</span>
+                        </div>
+                    </div>
+                    <div class="member">
+                            <img src="images/IMG-20190831-WA0001.jpg" alt="">
+                            <div class="member-info">
+                                <h5>Onyenichie Thompson</h5>
+                                <span>39</span>
+                            </div>
+                    </div>
+
+            </div>
+        </section>
+</section>
+
+
+        <!------------------------Team section------------------------>
+<footer class="footer">
+
+    <div class="footer-wrapper container">
+      <div class="footer-grid-one footer-logo">
+          <img src="images/footer-logo.png" alt="">
+          <p>Most of our events have hard and easy route choices<br> as we are always keen to encourage new riders.</p>
+
+          <a href="#" class="rounded-link"><i class="fa fa-facebook-f"></i></a>
+          <a href="#" class="rounded-link"><i class="fa fa-twitter"></i> </a>
+          <a href="#" class="rounded-link"><i class="fa fa-youtube"></i></a>
+          <a href="#" class="rounded-link"><i class="fa fa-pinterest-p"></i> </a>
+      </div>
+<br>
+      <div class="footer-grid-one foot-one_link">
+            <h3>Menu</h3>
+            <hr>
+          <ul class="footer-links">     
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Out Team</a></li>
+              <li><a href="#">Latest New</a></li>
+              <li><a href="#">Recent Matches</a></li>
+              <li><a href="#">Out Blog</a></li>
+              <li><a href="#">Contact Us</a></li>
+          </ul>
+       </div>
+
+        <div class="footer-grid-one  foot-two_link">
+                <h3>Menu</h3>
+                <hr>
+                <ul class="footer-links">
+                    <li><i class="fa fa-map-marker"></i>Lorem Ipsum is simply<br> dummy text of the printing..</li>
+                    <li><i class="fa fa-phone"></i>123 456 7890</li>
+                    <li><i style="font-size:20px;top:5px;" class="fa fa-envelope"></i>demo@gmail.com</li>
+                </ul>
+        </div>
+
+        <div class="footer-grid-one">
+            
+        </div>
+    </div>
+
+    <hr id="thin-rule">
+    <div class="footer-copywrite">
+        <p>Copyright © 2018 Distributed by ThemeWagon</p>
+    </div>
+
+</footer>
+
+
+<script src="my-js/drop.js"></script>
+
+</body>
+</html>
